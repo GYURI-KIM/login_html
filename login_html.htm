@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="userid_input">아이디</label>
+        <input
+            id="userid_input"
+            type="text"
+            name="userid"
+            placeholder="아이디를 입력하세요"
+        />
+        <br />
+        <label for="userpw_input">비밀번호</label>
+        <input
+            id="userpw_input"
+            type="password"
+            name="userpw"
+            placeholder="비밀번호를 입력하세요"
+        />
+        <select name="pw_questions">
+            <option value="강아지 이름">처음 키운 강아지의 이름은?</option>
+            <option value="싫어하는 과일">내가 싫어하는 과일은?</option>
+            <option value="결혼기념일">부모님의 결혼기념일 날짜는?</option>
+        </select>
+        <input
+            id="answer"
+            type="text"
+            name="pw_questions"
+            placeholder="답을 입력하세요"
+        />
+        <input value="전송하기" type="button" name="button" />\
+        <br />
+        <textarea name="content" cols="100" rows="100">
+            자기소개~
+        </textarea>
+    </form>
+</body>
+</html>
